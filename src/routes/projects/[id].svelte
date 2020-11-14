@@ -49,6 +49,9 @@
   }
 </style>
 
+<svelte:head>
+  <title>Project: {project.name}</title>
+</svelte:head>
 <div class="container">
   {#if project}
     <div class="project">

@@ -19,6 +19,9 @@
   }
 </style>
 
+<svelte:head>
+  <title>Projects</title>
+</svelte:head>
 <div class="container">
   <h3>Projects</h3>
 

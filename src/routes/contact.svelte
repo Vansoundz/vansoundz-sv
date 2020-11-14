@@ -1,4 +1,6 @@
 <script lang="ts">
+  let link =
+    "https://firebasestorage.googleapis.com/v0/b/vansoundz.appspot.com/o/_vansoundz%20on%20Instagram_%20_--%EF%B8%8F--__B9cIzYolXyM(JPG).jpg?alt=media&token=72623bab-9c87-42c6-b090-3e80770500e8";
 </script>
 
 <style>
@@ -24,10 +26,20 @@
   .image {
     background: #ee9484;
     height: 100%;
+    background-size: cover !important;
   }
 
   .content {
     padding: 12px;
+  }
+
+  a i {
+    font-size: 22px;
+  }
+
+  .name {
+    font-weight: bold;
+    color: black;
   }
 
   @media screen and (max-width: 400px) {
@@ -38,13 +50,16 @@
   }
 </style>
 
+<svelte:head>
+  <title>contact</title>
+</svelte:head>
 <div class="contact">
   <div>
     <div>
       <h3>Get in touch</h3>
     </div>
     <div class="card">
-      <div class="image" />
+      <div class="image" style="background: url('{link}')" />
       <div class="content">
         <div class="name">Evans Kibet</div>
         <div class="email">

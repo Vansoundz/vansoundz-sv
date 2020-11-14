@@ -57,9 +57,9 @@
 </style>
 
 <nav>
-  <a href="/">VansoundZ</a>
+  <a href="/">Vansoundz</a>
   <ul>
-    <li class:active={segment === 'about'}><a href="about">Resume</a></li>
+    <li class:active={segment === 'resume'}><a href="resume">Resume</a></li>
     <li class:active={segment === 'projects'}>
       <a href="projects">Projects</a>
     </li>

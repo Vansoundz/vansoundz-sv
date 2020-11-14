@@ -12,8 +12,9 @@
 </style>
 
 <svelte:head>
-  <title>About</title>
+  <title>Resume</title>
 </svelte:head>
+
 <div class="resume">
   <object data="/cv.pdf" type="application/pdf" title="resume" />
 </div>
