@@ -13,6 +13,7 @@
     background: #fff;
     border-radius: 0 0 32px 32px;
     overflow: hidden;
+    flex-wrap: wrap;
   }
 
   nav,
@@ -42,12 +43,23 @@
     background: #f38c2c;
     content: "";
   }
+
+  ul {
+    min-width: 245px;
+  }
+
+  @media screen and (max-width: 375px) {
+    ul,
+    nav {
+      justify-content: center;
+    }
+  }
 </style>
 
 <nav>
   <a href="/">VansoundZ</a>
   <ul>
-    <li class:active={segment === 'about'}><a href="about">About</a></li>
+    <li class:active={segment === 'about'}><a href="about">Resume</a></li>
     <li class:active={segment === 'projects'}>
       <a href="projects">Projects</a>
     </li>
