@@ -22,3 +22,7 @@ body {
   height: 100vh;
   background: #eff0e8;
 }
+
+#nprogress .bar {
+  background: #f38c2c !important;
+}
